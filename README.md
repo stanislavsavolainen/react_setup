@@ -19,17 +19,17 @@ There is something changed in babel - modules installation from internet what ca
 
 https://www.codementor.io/tamizhvendan/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack-du107r9zr
 
-
+------------------------------------------------------------------------------------------------------------------------
 
 How to programming on React :
 
-src/client/index.jsx  ( react code here )
+src/client/index.jsx  ( react code here for Linux and Windows )
 
-then write following command on Linux terminal to "compile" react to old javascript:
+Then write following command on Linux terminal to "compile" react to old javascript:
 
  ``` ./node_modules/.bin/webpack -d  ```
 
-alson write following command on Windows command line (cmd) to "compile :
+For Windows run script at command line(cmd) to "compile" :
 
 ```  npm run-script build  ```
 
@@ -38,7 +38,7 @@ Remember that after compilation you can see changes in browser, because index.ht
 to host project you need only index.html and bundle.js files. Other files are for development.
 
 
-Please note that NodeJS have to be installed for both script !
+Please note that Node.js have to be installed for Linux and Windows version !
 
 
 
