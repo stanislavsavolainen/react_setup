@@ -29,11 +29,11 @@ Then write following command on Linux terminal to "compile" react to old javascr
 
  ``` ./node_modules/.bin/webpack -d  ```
 
-For Windows run script at command line(cmd) to "compile" :
+For Windows write following command to cmd to "compile" :
 
 ```  npm run-script build  ```
 
-This cause src/client/public/bundle.js - file update, after that you can open your project in browser at src/client/index.html.
+Compilation cause src/client/public/bundle.js - file update, after that you can open your project in browser at src/client/index.html.
 Remember that after compilation you can see changes in browser, because index.html read bundle.js file. This mean that if you need
 to host project you need only index.html and bundle.js files. Other files are for development.
 
