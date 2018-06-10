@@ -27,11 +27,11 @@ src/client/index.jsx  ( react code here )
 
 then write following command on Linux terminal to "compile" react to old javascript:
 
- ```js ./node_modules/.bin/webpack -d  ```
+ ``` ./node_modules/.bin/webpack -d  ```
 
 alson write following command on Windows command line (cmd) to "compile :
 
-```js  npm run-script build  ```
+```  npm run-script build  ```
 
 This cause src/client/public/bundle.js - file update, after that you can open your project in browser at src/client/index.html.
 Remember that after compilation you can see changes in browser, because index.html read bundle.js file. This mean that if you need
