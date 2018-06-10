@@ -1,7 +1,7 @@
 @echo off
-rem -------> this script done by Stanislav Savolainen <--------------------------
-rem  ------> build react.js "hello world" - applicaion on windows - platform <--- 
-rem  ------> script require NodeJs to be installed (using npm ) <---------------- 
+rem -------- this script done by Stanislav Savolainen ---------------------------
+rem  ------- build react.js "hello world" - applicaion on windows-platform ------ 
+rem  ------- script require NodeJs to be installed (using npm ) ----------------- 
 rem -----------------------------------------------------------------------------
 echo "remove project files if exsist"
 del package.json
